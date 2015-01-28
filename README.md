@@ -5,7 +5,7 @@ Hansa is a PoW+PoS based cryptocurrency.<br>
 HANSA wallets can download from http://hansacoin.com<br>
 <br>
 Building HANSA from sourcecode.<br>
-Debian HANSA-QT<br>
+<b>Debian HANSA-QT</b><br>
 <br>
 Make sure that the required packages for Qt5 development of your distribution are installed, for Debian and Ubuntu these are:
 apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
@@ -22,7 +22,7 @@ make<br>
 Alternatively, install Qt Creator and open the hansa-qt.pro file.<br>
 An executable named hansa-qt will be built.<br>
 <br>
-HANSA serverside daemon (hansad)<br>
+<b>HANSA serverside daemon (hansad)</b><br>
 <br>
 Download latest HANSA git source: GIT CLONE https://github.com/hansacoin/hansacoin.git<br>
 <br>
@@ -52,12 +52,12 @@ hansad<br>
 More info's about daemon, type:<br>
 hansad help<br>
 <br>
-Windows build instructions:<br>
+<b>Windows build instructions:</b><br>
 Download the QT Windows SDK and install it. You don't need the Symbian stuff, just the desktop Qt.<br>
 Compile openssl, boost and dbcxx.<br>
 Open the .pro file in QT creator and build as normal (ctrl-B)<br>
 <br>
-Mac OS X<br>
+<b>Mac OS X</b><br>
 Download and install the Qt Mac OS X SDK. It is recommended to also install Apple's Xcode with UNIX tools.<br>
 Download and install MacPorts.<br>
 Execute the following commands in a terminal to get the dependencies:<br>
@@ -85,7 +85,7 @@ libqrencode may be used to generate QRCode images for payment requests. It can b
 USE_QRCODE=0	(the default) No QRCode support - libarcode not required<br>
 USE_QRCODE=1	QRCode support enabled<br>
 <br>
-Other HANSA project files<br>
+<b>Other HANSA project files</b><br>
 - HANSA paperwallet generator<br>
 - HANSA Block explorer (No database needed)<br>
 - HANSA Payment acceptor (Validate payment transactions)<br>
