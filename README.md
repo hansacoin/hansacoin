@@ -4,9 +4,8 @@ Hansa is a PoW+PoS based cryptocurrency.<br>
 <br>
 HANSA wallets can download from http://hansacoin.com<br>
 <br>
-Building HANSA from sourcecode.<br>
+Building HANSA from sourcecode.<br><br>
 <b>Debian HANSA-QT</b><br>
-<br>
 Make sure that the required packages for Qt5 development of your distribution are installed, for Debian and Ubuntu these are:
 apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
     build-essential libboost-dev libboost-system-dev \
@@ -23,7 +22,6 @@ Alternatively, install Qt Creator and open the hansa-qt.pro file.<br>
 An executable named hansa-qt will be built.<br>
 <br>
 <b>HANSA serverside daemon (hansad)</b><br>
-<br>
 Download latest HANSA git source: GIT CLONE https://github.com/hansacoin/hansacoin.git<br>
 <br>
 Compile daemon:<br>
