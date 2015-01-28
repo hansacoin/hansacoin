@@ -43,7 +43,7 @@ server=1<br>
 daemon=1<br>
 rpcuser=user <br>
 rpcpassword=password<br>
-rpcport=121111<br>
+rpcport=12111<br>
 rpcallowip=127.0.0.1<br>
 txindex=1<br>
 <br>
