@@ -8,11 +8,11 @@ Building HANSA from sourcecode.<br>
 Debian HANSA-QT<br>
 <br>
 Make sure that the required packages for Qt5 development of your distribution are installed, for Debian and Ubuntu these are:
-apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \<br>
-    build-essential libboost-dev libboost-system-dev \<br>
-    libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \<br>
-    libssl-dev libdb++-dev libminiupnpc-dev git<br>
-	<br>
+apt-get install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools \
+    build-essential libboost-dev libboost-system-dev \
+    libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+    libssl-dev libdb++-dev libminiupnpc-dev git
+	<br><br>
 Download latest HANSA git source: GIT CLONE https://github.com/hansacoin/hansacoin.git<br>
 <br>
 then execute the following:<br>
