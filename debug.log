@@ -1,0 +1,577 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hansa version v1.1.1.0-g ()
+Using OpenSSL version OpenSSL 1.0.1 14 Mar 2012
+Startup time: 01/14/15 15:55:15
+Default data directory /root/.hansa
+Used data directory /root/.hansa
+dbenv.open LogDir=/root/.hansa/database ErrorFile=/root/.hansa/db.log
+Bound to [::]:42111
+Bound to 0.0.0.0:42111
+Loading block index...
+Opening LevelDB in /root/.hansa/txleveldb
+Opened LevelDB successfully
+CBlock(hash=000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=6918e474ef871f2d06bb6af50ed675929dcce915d33d0fe07ef6ba6abb10121a, nTime=1417695597, nBits=1e0fffff, nNonce=136855, vtx=1, vchBlockSig=)
+  Coinbase(hash=6918e474ef, nTime=1417695597, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a09582066726565646f6d)
+    CTxOut(empty)
+  vMerkleTree: 6918e474ef 
+block.GetHash() == 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+block.hashMerkleRoot == 6918e474ef871f2d06bb6af50ed675929dcce915d33d0fe07ef6ba6abb10121a
+block.nTime = 1417695597 
+block.nNonce = 136855 
+CBlock(hash=000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=6918e474ef871f2d06bb6af50ed675929dcce915d33d0fe07ef6ba6abb10121a, nTime=1417695597, nBits=1e0fffff, nNonce=136855, vtx=1, vchBlockSig=)
+  Coinbase(hash=6918e474ef, nTime=1417695597, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a09582066726565646f6d)
+    CTxOut(empty)
+  vMerkleTree: 6918e474ef 
+SetBestChain: new best=000009da97eecec6e0c5  height=0  trust=1048577  blocktrust=1048577  date=12/04/14 12:19:57
+ResetSyncCheckpoint: sync-checkpoint reset to 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+ block index              18ms
+Loading wallet...
+nFileVersion = 1010100
+Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+ wallet                  371ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+Secure messaging starting.
+Error opening file: No such file or directory
+Failed to read smsg.ini
+No address keys loaded.
+Message store directory does not exist.
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+Error: To use hansad, you must set a rpcpassword in the configuration file:
+ /root/.hansa/hansa.conf
+It is recommended you use the following random password:
+rpcuser=hansarpc
+rpcpassword=3zvmC7i7C6nEHbwRPS4SZzi2QAy9KQm1bJRK8PkR4NHa
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %s | mail -s "hansa Alert" admin@foo.com
+
+AddLocal(178.62.154.31:42111,1)
+IPv4 eth0: 178.62.154.31
+ThreadRPCServer exited
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadOpenConnections started
+ThreadIRCSeed exited
+Stopping secure messaging.
+Flush(false)
+wallet.dat refcount=0
+wallet.dat checkpoint
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadMessageHandler started
+ThreadMessageHandler exited
+ThreadDumpAddress exited
+ThreadStakeMiner started
+wallet.dat detach
+ThreadStakeMiner exiting, 0 threads remaining
+wallet.dat closed
+DBFlush(false) ended               3ms
+StopNode()
+ThreadSocketHandler exited
+Flushed 0 addresses to peers.dat  2ms
+Flush(true)
+DBFlush(true) ended               0ms
+hansa exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hansa version v1.1.1.0-g ()
+Using OpenSSL version OpenSSL 1.0.1 14 Mar 2012
+Startup time: 01/14/15 15:57:36
+Default data directory /root/.hansa
+Used data directory /root/.hansa
+dbenv.open LogDir=/root/.hansa/database ErrorFile=/root/.hansa/db.log
+Bound to [::]:42111
+Bound to 0.0.0.0:42111
+Loading block index...
+Opening LevelDB in /root/.hansa/txleveldb
+Transaction index version is 70509
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=000009da97eecec6e0c5  height=0  trust=1048577  date=12/04/14 12:19:57
+LoadBlockIndex(): synchronized checkpoint 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+Verifying last 0 blocks at level 1
+ block index               6ms
+Loading wallet...
+nFileVersion = 1010100
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                  500ms
+Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+Secure messaging starting.
+Loaded 1 addresses.
+Message store directory does not exist.
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+AddLocal(178.62.154.31:42111,1)
+IPv4 eth0: 178.62.154.31
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadIRCSeed exited
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadOpenConnections started
+ThreadMessageHandler started
+ThreadStakeMiner started
+Flushed 0 addresses to peers.dat  1ms
+GetMyExternalIP() received [178.62.154.31] 178.62.154.31:0
+GetMyExternalIP() returned 178.62.154.31
+AddLocal(178.62.154.31:42111,5)
+Stopping secure messaging.
+Flush(false)
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(false) ended               2ms
+StopNode()
+ThreadSocketHandler exited
+ThreadMessageHandler exited
+ThreadSecureMsg exited.
+ThreadStakeMiner exiting, 0 threads remaining
+ThreadSecureMsgPow exited.
+ThreadOpenConnections exited
+Flushed 0 addresses to peers.dat  2ms
+Flush(true)
+DBFlush(true) ended               0ms
+hansa exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hansa version v1.1.1.0-g ()
+Using OpenSSL version OpenSSL 1.0.1 14 Mar 2012
+Startup time: 01/14/15 15:58:46
+Default data directory /root/.hansa
+Used data directory /root/.hansa
+dbenv.open LogDir=/root/.hansa/database ErrorFile=/root/.hansa/db.log
+Bound to [::]:42111
+Bound to 0.0.0.0:42111
+Loading block index...
+Opening LevelDB in /root/.hansa/txleveldb
+Transaction index version is 70509
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=000009da97eecec6e0c5  height=0  trust=1048577  date=12/04/14 12:19:57
+LoadBlockIndex(): synchronized checkpoint 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+Verifying last 0 blocks at level 1
+ block index               3ms
+Loading wallet...
+nFileVersion = 1010100
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                  283ms
+Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+Secure messaging starting.
+Loaded 1 addresses.
+Message store directory does not exist.
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+AddLocal(178.62.154.31:42111,1)
+IPv4 eth0: 178.62.154.31
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadOpenConnections started
+ThreadMessageHandler started
+ThreadIRCSeed exited
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadStakeMiner started
+Flushed 0 addresses to peers.dat  1ms
+GetMyExternalIP() received [178.62.154.31] 178.62.154.31:0
+GetMyExternalIP() returned 178.62.154.31
+AddLocal(178.62.154.31:42111,5)
+Stopping secure messaging.
+Flush(false)
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(false) ended               2ms
+StopNode()
+ThreadSocketHandler exited
+ThreadMessageHandler exited
+ThreadOpenConnections exited
+ThreadSecureMsg exited.
+ThreadStakeMiner exiting, 0 threads remaining
+ThreadSecureMsgPow exited.
+Flushed 0 addresses to peers.dat  2ms
+Flush(true)
+DBFlush(true) ended               0ms
+hansa exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hansa version v1.1.1.0-g ()
+Using OpenSSL version OpenSSL 1.0.1 14 Mar 2012
+Startup time: 01/14/15 15:59:44
+Default data directory /root/.hansa
+Used data directory /root/.hansa
+dbenv.open LogDir=/root/.hansa/database ErrorFile=/root/.hansa/db.log
+Bound to [::]:42111
+Bound to 0.0.0.0:42111
+Loading block index...
+Opening LevelDB in /root/.hansa/txleveldb
+Transaction index version is 70509
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=000009da97eecec6e0c5  height=0  trust=1048577  date=12/04/14 12:19:57
+LoadBlockIndex(): synchronized checkpoint 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+Verifying last 0 blocks at level 1
+ block index               6ms
+Loading wallet...
+nFileVersion = 1010100
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                  551ms
+Loading addresses...
+Loaded 0 addresses from peers.dat  0ms
+Secure messaging starting.
+Loaded 1 addresses.
+Message store directory does not exist.
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+AddLocal(178.62.154.31:42111,1)
+IPv4 eth0: 178.62.154.31
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadMessageHandler started
+ThreadOpenConnections started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadSocketHandler started
+ThreadIRCSeed exited
+ThreadStakeMiner started
+Flushed 0 addresses to peers.dat  2ms
+GetMyExternalIP() received [178.62.154.31] 178.62.154.31:0
+GetMyExternalIP() returned 178.62.154.31
+AddLocal(178.62.154.31:42111,5)
+Added 2 addresses from 127.0.0.1: 0 tried, 2 new
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+Stopping secure messaging.
+Flush(false)
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+wallet.dat closed
+DBFlush(false) ended               2ms
+StopNode()
+ThreadSocketHandler exited
+ThreadMessageHandler exited
+ThreadSecureMsg exited.
+ThreadSecureMsgPow exited.
+ThreadStakeMiner exiting, 0 threads remaining
+Flushed 2 addresses to peers.dat  2ms
+Flush(true)
+DBFlush(true) ended               0ms
+hansa exited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hansa version v1.1.1.0-g ()
+Using OpenSSL version OpenSSL 1.0.1 14 Mar 2012
+Startup time: 01/14/15 16:03:36
+Default data directory /root/.hansa
+Used data directory /root/.hansa
+dbenv.open LogDir=/root/.hansa/database ErrorFile=/root/.hansa/db.log
+Bound to [::]:42111
+Bound to 0.0.0.0:42111
+Loading block index...
+Opening LevelDB in /root/.hansa/txleveldb
+Transaction index version is 70509
+Opened LevelDB successfully
+LoadBlockIndex(): hashBestChain=000009da97eecec6e0c5  height=0  trust=1048577  date=12/04/14 12:19:57
+LoadBlockIndex(): synchronized checkpoint 000009da97eecec6e0c5c5d3003af8405b6229cd21b2d7fbf85542b8d766765c
+Verifying last 0 blocks at level 1
+ block index               5ms
+Loading wallet...
+nFileVersion = 1010100
+Keys: 101 plaintext, 0 encrypted, 101 w/ metadata, 101 total
+ wallet                  583ms
+Loading addresses...
+Loaded 2 addresses from peers.dat  1ms
+Secure messaging starting.
+Loaded 1 addresses.
+Message store directory does not exist.
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+Done loading
+ThreadRPCServer started
+AddLocal(178.62.154.31:42111,1)
+IPv4 eth0: 178.62.154.31
+ThreadOpenConnections started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadMessageHandler started
+ThreadSocketHandler started
+ThreadIRCSeed exited
+Flushed 2 addresses to peers.dat  2ms
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+0 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+ThreadStakeMiner started
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+GetMyExternalIP() received [178.62.154.31] 178.62.154.31:0
+GetMyExternalIP() returned 178.62.154.31
+AddLocal(178.62.154.31:42111,5)
+connection timeout
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 219.229.172.69:42111 lastseen=308.4hrs
+connect() failed after select(): Connection refused
+trying connection 80.12.172.66:42111 lastseen=301.0hrs
+connection timeout
+trying connection 80.12.172.66:42111 lastseen=301.0hrs

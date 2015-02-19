@@ -1,0 +1,9 @@
+Building Hansa
+
+See doc/readme-qt.rst for instructions on building Hansa QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Hansa.
+
+See doc/build-*.txt for instructions on building Hansas,
+the intended-for-services, no-graphical-interface, reference
+implementation of Hansad.
